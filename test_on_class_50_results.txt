@@ -1,0 +1,72 @@
+[34m[1mclassify/predict: [0mweights=['yolov5/runs/train-cls/yolov5s_flower_classifier/weights/best.pt'], source=/content/flowers102/test/50, data=yolov5/data/coco128.yaml, imgsz=[224, 224], device=, view_img=False, save_txt=False, nosave=False, augment=False, visualize=False, update=False, project=yolov5/runs/predict-cls, name=exp, exist_ok=False, half=False, dnn=False, vid_stride=1
+YOLOv5 🚀 v7.0-398-g5cdad892 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (NVIDIA A100-SXM4-40GB, 40507MiB)
+
+Fusing layers... 
+Model summary: 117 layers, 4297350 parameters, 0 gradients, 10.5 GFLOPs
+image 1/65 /content/flowers102/test/50/image_01314.jpg: 224x224 50 0.90, 74 0.01, 63 0.01, 33 0.00, 92 0.00, 3.4ms
+image 2/65 /content/flowers102/test/50/image_01315.jpg: 224x224 50 0.96, 96 0.00, 88 0.00, 73 0.00, 94 0.00, 3.7ms
+image 3/65 /content/flowers102/test/50/image_01324.jpg: 224x224 50 0.94, 88 0.01, 45 0.00, 82 0.00, 51 0.00, 3.5ms
+image 4/65 /content/flowers102/test/50/image_01330.jpg: 224x224 50 0.89, 73 0.00, 10 0.00, 3 0.00, 15 0.00, 3.3ms
+image 5/65 /content/flowers102/test/50/image_01332.jpg: 224x224 50 0.97, 82 0.00, 55 0.00, 88 0.00, 57 0.00, 3.4ms
+image 6/65 /content/flowers102/test/50/image_01334.jpg: 224x224 50 0.97, 77 0.00, 83 0.00, 41 0.00, 2 0.00, 3.8ms
+image 7/65 /content/flowers102/test/50/image_01348.jpg: 224x224 50 0.83, 45 0.01, 55 0.00, 96 0.00, 90 0.00, 3.9ms
+image 8/65 /content/flowers102/test/50/image_01350.jpg: 224x224 50 0.93, 54 0.00, 85 0.00, 13 0.00, 7 0.00, 3.3ms
+image 9/65 /content/flowers102/test/50/image_01352.jpg: 224x224 50 0.93, 97 0.00, 54 0.00, 69 0.00, 74 0.00, 3.3ms
+image 10/65 /content/flowers102/test/50/image_01356.jpg: 224x224 50 0.97, 96 0.00, 7 0.00, 101 0.00, 56 0.00, 3.4ms
+image 11/65 /content/flowers102/test/50/image_01358.jpg: 224x224 50 0.90, 97 0.00, 56 0.00, 96 0.00, 21 0.00, 3.3ms
+image 12/65 /content/flowers102/test/50/image_01362.jpg: 224x224 50 0.98, 83 0.00, 90 0.00, 65 0.00, 7 0.00, 3.3ms
+image 13/65 /content/flowers102/test/50/image_01369.jpg: 224x224 50 0.99, 57 0.00, 26 0.00, 75 0.00, 55 0.00, 3.4ms
+image 14/65 /content/flowers102/test/50/image_01374.jpg: 224x224 50 0.95, 75 0.00, 31 0.00, 97 0.00, 33 0.00, 3.3ms
+image 15/65 /content/flowers102/test/50/image_01375.jpg: 224x224 50 0.94, 75 0.00, 7 0.00, 83 0.00, 73 0.00, 3.3ms
+image 16/65 /content/flowers102/test/50/image_01381.jpg: 224x224 50 0.94, 57 0.00, 59 0.00, 58 0.00, 64 0.00, 3.3ms
+image 17/65 /content/flowers102/test/50/image_01385.jpg: 224x224 50 0.92, 24 0.00, 92 0.00, 4 0.00, 15 0.00, 3.3ms
+image 18/65 /content/flowers102/test/50/image_01390.jpg: 224x224 50 0.94, 24 0.00, 62 0.00, 25 0.00, 77 0.00, 3.3ms
+image 19/65 /content/flowers102/test/50/image_01394.jpg: 224x224 50 0.95, 62 0.00, 101 0.00, 16 0.00, 24 0.00, 3.2ms
+image 20/65 /content/flowers102/test/50/image_01395.jpg: 224x224 50 0.95, 5 0.00, 77 0.00, 89 0.00, 16 0.00, 4.2ms
+image 21/65 /content/flowers102/test/50/image_01397.jpg: 224x224 50 0.97, 59 0.01, 68 0.00, 14 0.00, 57 0.00, 3.5ms
+image 22/65 /content/flowers102/test/50/image_01404.jpg: 224x224 50 0.97, 24 0.00, 1 0.00, 83 0.00, 15 0.00, 3.2ms
+image 23/65 /content/flowers102/test/50/image_01416.jpg: 224x224 50 0.95, 54 0.00, 64 0.00, 14 0.00, 15 0.00, 3.3ms
+image 24/65 /content/flowers102/test/50/image_01418.jpg: 224x224 50 0.97, 15 0.00, 4 0.00, 47 0.00, 100 0.00, 3.2ms
+image 25/65 /content/flowers102/test/50/image_01420.jpg: 224x224 50 0.96, 16 0.00, 5 0.00, 25 0.00, 24 0.00, 3.2ms
+image 26/65 /content/flowers102/test/50/image_01430.jpg: 224x224 50 0.92, 86 0.00, 67 0.00, 40 0.00, 60 0.00, 3.2ms
+image 27/65 /content/flowers102/test/50/image_01434.jpg: 224x224 50 0.95, 64 0.00, 27 0.00, 54 0.00, 15 0.00, 3.3ms
+image 28/65 /content/flowers102/test/50/image_01435.jpg: 224x224 50 0.91, 64 0.01, 27 0.00, 54 0.00, 9 0.00, 3.3ms
+image 29/65 /content/flowers102/test/50/image_01437.jpg: 224x224 50 0.96, 41 0.00, 66 0.00, 24 0.00, 56 0.00, 3.2ms
+image 30/65 /content/flowers102/test/50/image_01439.jpg: 224x224 50 0.97, 24 0.00, 16 0.00, 25 0.00, 5 0.00, 3.3ms
+image 31/65 /content/flowers102/test/50/image_01440.jpg: 224x224 50 0.94, 20 0.00, 100 0.00, 15 0.00, 1 0.00, 3.6ms
+image 32/65 /content/flowers102/test/50/image_01444.jpg: 224x224 50 0.98, 4 0.00, 5 0.00, 24 0.00, 101 0.00, 3.8ms
+image 33/65 /content/flowers102/test/50/image_01455.jpg: 224x224 50 0.97, 86 0.00, 66 0.00, 56 0.00, 52 0.00, 3.3ms
+image 34/65 /content/flowers102/test/50/image_01456.jpg: 224x224 50 0.93, 89 0.00, 5 0.00, 83 0.00, 16 0.00, 3.3ms
+image 35/65 /content/flowers102/test/50/image_01460.jpg: 224x224 50 0.97, 24 0.00, 27 0.00, 25 0.00, 67 0.00, 3.3ms
+image 36/65 /content/flowers102/test/50/image_01461.jpg: 224x224 50 0.95, 64 0.00, 56 0.00, 58 0.00, 14 0.00, 3.3ms
+image 37/65 /content/flowers102/test/50/image_01462.jpg: 224x224 50 0.99, 59 0.00, 1 0.00, 54 0.00, 68 0.00, 3.2ms
+image 38/65 /content/flowers102/test/50/image_01471.jpg: 224x224 50 0.90, 67 0.00, 86 0.00, 96 0.00, 27 0.00, 3.4ms
+image 39/65 /content/flowers102/test/50/image_01489.jpg: 224x224 50 0.97, 24 0.00, 9 0.00, 16 0.00, 101 0.00, 3.2ms
+image 40/65 /content/flowers102/test/50/image_01490.jpg: 224x224 50 0.95, 98 0.00, 83 0.00, 61 0.00, 16 0.00, 3.3ms
+image 41/65 /content/flowers102/test/50/image_03918.jpg: 224x224 50 0.98, 90 0.00, 13 0.00, 56 0.00, 7 0.00, 3.4ms
+image 42/65 /content/flowers102/test/50/image_03920.jpg: 224x224 50 0.94, 88 0.00, 97 0.00, 91 0.00, 77 0.00, 3.5ms
+image 43/65 /content/flowers102/test/50/image_03922.jpg: 224x224 50 0.90, 74 0.00, 0 0.00, 88 0.00, 90 0.00, 4.7ms
+image 44/65 /content/flowers102/test/50/image_03924.jpg: 224x224 50 0.96, 90 0.00, 0 0.00, 10 0.00, 2 0.00, 3.6ms
+image 45/65 /content/flowers102/test/50/image_03927.jpg: 224x224 50 0.46, 54 0.03, 51 0.03, 8 0.03, 81 0.03, 3.5ms
+image 46/65 /content/flowers102/test/50/image_03928.jpg: 224x224 50 0.96, 75 0.00, 85 0.00, 97 0.00, 88 0.00, 3.4ms
+image 47/65 /content/flowers102/test/50/image_03929.jpg: 224x224 50 0.99, 85 0.00, 26 0.00, 6 0.00, 91 0.00, 3.3ms
+image 48/65 /content/flowers102/test/50/image_03930.jpg: 224x224 18 0.87, 85 0.04, 65 0.01, 50 0.01, 63 0.00, 3.4ms
+image 49/65 /content/flowers102/test/50/image_03931.jpg: 224x224 50 0.98, 74 0.00, 52 0.00, 77 0.00, 31 0.00, 3.3ms
+image 50/65 /content/flowers102/test/50/image_03933.jpg: 224x224 50 0.87, 72 0.00, 23 0.00, 56 0.00, 97 0.00, 3.3ms
+image 51/65 /content/flowers102/test/50/image_03950.jpg: 224x224 50 0.97, 75 0.00, 90 0.00, 0 0.00, 52 0.00, 3.4ms
+image 52/65 /content/flowers102/test/50/image_03951.jpg: 224x224 50 0.87, 88 0.02, 67 0.01, 89 0.00, 20 0.00, 3.4ms
+image 53/65 /content/flowers102/test/50/image_03953.jpg: 224x224 50 0.92, 90 0.01, 13 0.00, 1 0.00, 56 0.00, 3.3ms
+image 54/65 /content/flowers102/test/50/image_03958.jpg: 224x224 50 0.92, 97 0.00, 71 0.00, 85 0.00, 64 0.00, 3.3ms
+image 55/65 /content/flowers102/test/50/image_03959.jpg: 224x224 50 0.96, 82 0.00, 29 0.00, 88 0.00, 90 0.00, 3.3ms
+image 56/65 /content/flowers102/test/50/image_03960.jpg: 224x224 50 0.84, 31 0.02, 29 0.01, 97 0.01, 74 0.00, 3.3ms
+image 57/65 /content/flowers102/test/50/image_03969.jpg: 224x224 50 0.93, 88 0.01, 85 0.00, 100 0.00, 97 0.00, 3.3ms
+image 58/65 /content/flowers102/test/50/image_03971.jpg: 224x224 50 0.98, 29 0.00, 31 0.00, 85 0.00, 33 0.00, 3.8ms
+image 59/65 /content/flowers102/test/50/image_03973.jpg: 224x224 50 0.77, 42 0.04, 10 0.04, 67 0.01, 82 0.01, 3.7ms
+image 60/65 /content/flowers102/test/50/image_03974.jpg: 224x224 50 0.92, 71 0.01, 97 0.00, 74 0.00, 31 0.00, 3.4ms
+image 61/65 /content/flowers102/test/50/image_03978.jpg: 224x224 50 0.95, 90 0.00, 2 0.00, 72 0.00, 56 0.00, 3.4ms
+image 62/65 /content/flowers102/test/50/image_03986.jpg: 224x224 50 0.86, 74 0.01, 0 0.00, 100 0.00, 88 0.00, 3.4ms
+image 63/65 /content/flowers102/test/50/image_03988.jpg: 224x224 50 0.80, 54 0.03, 97 0.02, 75 0.01, 2 0.01, 3.4ms
+image 64/65 /content/flowers102/test/50/image_03989.jpg: 224x224 50 0.99, 97 0.00, 66 0.00, 86 0.00, 18 0.00, 3.4ms
+image 65/65 /content/flowers102/test/50/image_03992.jpg: 224x224 50 0.94, 18 0.01, 97 0.00, 43 0.00, 23 0.00, 3.2ms
+Speed: 0.3ms pre-process, 3.4ms inference, 0.2ms NMS per image at shape (1, 3, 224, 224)
+Results saved to [1myolov5/runs/predict-cls/exp4[0m
